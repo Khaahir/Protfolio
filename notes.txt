@@ -1,0 +1,106 @@
+
+
+Jesper’s JavaScript Developer Portfolio
+
+1. Theme & Vibe
+
+Style: Modern, clean, easy on the eyes
+
+Color Palette:
+
+Deep Blue (background): #0A192F
+
+Light Gray/White (text): #E6F1FF
+
+Yellow (accents): #FFD700
+
+Soft Blue (links/buttons): #1E90FF
+
+Slate Gray (subtext): #8892B0
+
+
+
+
+---
+
+2. Sections to Include
+
+Landing / Home
+
+Name: Jesper
+
+Title: JavaScript Developer in Training
+
+Tagline: “Full-stack focused. Curious. Consistent.”
+
+Call-to-action: “View My Work” or “Download Resume”
+
+
+About Me
+
+> Hey! I’m Jesper, a 28-year-old aspiring JavaScript developer based in Kristinehamn, Värmland.
+I’m currently studying full-stack web development, diving deep into modern web technologies.
+When I’m not coding, I’m training Brazilian Jiu-Jitsu, running, or spending time with my two kids.
+I love building clean, functional, user-friendly apps—and I’m always hungry to learn more.
+
+
+
+Education Timeline
+
+Shown as a vertical line with dots + course details
+
+Example entry:
+
+HT24 – HTML & CSS – 30 yhp
+
+VT25 – Frontend-ramverk – 35 yhp
+
+…all the way to VT26 – LIA 2 – 50 yhp
+
+
+Use yellow dots and labels for each course
+
+
+Projects
+
+Project title
+
+Short description
+
+Tech used (JavaScript, React, etc.)
+
+GitHub or demo link
+
+Optional: tag with related course
+
+
+Skills
+
+List or grid with icons or tags:
+
+HTML, CSS, JavaScript, TypeScript, React, Node.js, Git, MongoDB, SQL, Agile
+
+
+
+Contact
+
+Name / email form
+
+LinkedIn
+
+GitHub
+
+Optional: downloadable CV
+
+
+
+---
+
+3. Technical Extras (Optional)
+
+Dark mode toggle
+
+Resume PDF download
+
+Quote/motto: "Family,Code,Roll, Run ,Repeat
+
