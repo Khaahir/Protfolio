@@ -1,13 +1,27 @@
-@use "../Sass/Sass.scss" as * ;
+@use "../Sass/Sass.scss" as *;
 
-.home-container{
-    height: 100vh;
-    width: 100%;
-    background-color: $color-bg;
-    
+.home-container {
+  height: 100vh;
+  width: 100%;
+  background-color: $color-bg;
+  display: grid;
 }
 
-.footer-social{
-    height: 3rem;
-    width: 3rem;
+.header-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  height: ;
+}
+
+.home-motto {
+}
+
+.home-title {
+}
+.about-me {
+}
+
+.footer-social {
+  height: 3rem;
+  width: 3rem;
 }
