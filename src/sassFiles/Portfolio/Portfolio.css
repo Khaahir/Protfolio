@@ -24,6 +24,12 @@
   scrollbar-width: none;
 }
 
+.portfolio-title {
+  font-size: 3rem;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
 .list-object {
   display: flex;
   flex-direction: column;

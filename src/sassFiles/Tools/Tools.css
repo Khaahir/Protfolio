@@ -1,25 +1,28 @@
 .tools-container {
   width: 430px;
-  height: 100vh;
+  height: 100%;
   background-color: #0A192F;
+  color: #E6F1FF;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  color: #E6F1FF;
+}
+.tools-container .tools-navi {
+  display: flex;
+  flex-direction: column;
 }
 .tools-container .tools-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   -webkit-text-decoration: underline #FFD700;
           text-decoration: underline #FFD700;
   text-underline-offset: 0.8rem;
-  margin-top: 4rem;
 }
 .tools-container .tools-list {
+  margin-top: 0;
   display: flex;
-  font-size: 3rem;
+  font-size: 2.5rem;
   flex-direction: column;
-  justify-content: space-between;
   height: 100%;
+  margin-left: 1rem;
 }
 .tools-container .tools-list li::marker {
   color: #FFD700;

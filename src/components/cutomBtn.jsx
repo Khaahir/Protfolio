@@ -1,5 +1,3 @@
-import "../sassFiles/Button/button.css";
-
 const Button = ({ children, variant, onClick }) => {
   return (
     <button onClick={onClick} className={`btn-${variant}`}>

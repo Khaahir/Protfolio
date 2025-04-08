@@ -1,10 +1,18 @@
 import React from "react";
 import "../sassFiles/Portfolio/Portfolio.css";
+import "../sassFiles/CustumBtn/CustumBtn.css";
 import Button from "../components/cutomBtn";
+import { useDispatch } from "react-redux";
+import { toggleMenu } from "../Redux/menuSlice";
+import Social from "../components/social";
 
 function Portfolio() {
+  const dispatch = useDispatch();
   return (
     <section className="portfolio-container">
+      <Button variant={"menu"} onClick={() => dispatch(toggleMenu())}>
+        <img className="btn-menu" src="src/assets/menu.png" alt="menu button" />
+      </Button>
       <header className="portfolio-header">
         <h2 className="portfolio-title">My projects</h2>
       </header>
@@ -26,39 +34,7 @@ function Portfolio() {
       </main>
 
       <footer className="portfolio-footer">
-        <div className="social-box">
-          <img
-            className="footer-social"
-            onClick={() =>
-              (window.location.href = "mailto: Jesperpersson96@hotmail.se")
-            }
-            src="/src/assets/email.png"
-            alt="email icon"
-          />
-          <img
-            className="footer-social"
-            onClick={() => window.open("https://github.com/Khaahir", "_blank")}
-            src="/src/assets/github.png"
-            alt="github icon"
-          />
-          <img
-            className="footer-social"
-            onClick={() =>
-              window.open(
-                "https://www.linkedin.com/in/jesper-persson-936109329/",
-                "_blank"
-              )
-            }
-            src="/src/assets/linkedin.png"
-            alt="likedin icon"
-          />
-          <img
-            className="footer-social"
-            onClick={() => (window.location.href = "tel:+0701471434")}
-            src="/src/assets/telephone.png"
-            alt="telephone icon"
-          />
-        </div>
+        <Social />
         <span className="footer-text">
           “Fullstack. focused. Curious. Consistent.”
         </span>

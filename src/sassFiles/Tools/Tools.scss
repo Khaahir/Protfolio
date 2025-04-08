@@ -2,26 +2,30 @@
 
 .tools-container {
   width: 430px;
-  height: 100vh;
+  height: 100%;
   background-color: $color-bg;
+  color: $color-text;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  color: $color-text;
+
+  .tools-navi {
+    display: flex;
+    flex-direction: column;
+  }
 
   .tools-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-decoration: underline $color-accent;
     text-underline-offset: 0.8rem;
-    margin-top: 4rem;
   }
 
   .tools-list {
+    margin-top: 0;
     display: flex;
-    font-size: 3rem;
+    font-size: 2.5rem;
     flex-direction: column;
-    justify-content: space-between;
     height: 100%;
+    margin-left: 1rem;
     li::marker {
       color: $color-accent;
       font-size: 4rem;

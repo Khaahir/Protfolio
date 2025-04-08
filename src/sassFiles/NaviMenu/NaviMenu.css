@@ -6,11 +6,11 @@
 .menu-container .navi-overlay {
   background-color: rgba(151, 140, 140, 0.438);
   z-index: 1;
-  position: absolute;
   height: 100%;
   width: 100%;
 }
-.menu-container .menu {
+
+.menu {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -23,4 +23,25 @@
   height: 37rem;
   width: 20rem;
   background-color: #FFD700;
+  cursor: pointer;
+}
+.menu a {
+  text-decoration: none;
+}
+.menu a:visited {
+  color: #0A192F;
+}
+.menu a:hover {
+  color: white;
+}
+.menu a:active {
+  color: white;
+}
+
+.home-motto {
+  font-size: 1.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: rgba(245, 222, 179, 0.068);
 }/*# sourceMappingURL=NaviMenu.css.map */
