@@ -1,76 +1,60 @@
 @use "../Sass/Sass.scss" as *;
 
 .home-container {
-height: 100vh;
+  height: 100vh;
   width: 430px;
   background-color: $color-bg;
   color: $color-text;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
 }
 
 .header-container {
   grid-column: 1/5;
   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(6, 1fr);
   height: 2rem;
-  
-
 }
 .home-motto {
   color: $color-accent;
-grid-column: 1/7;
-grid-row: 1;
-justify-self: center;
-text-align: center;
-align-self:center;
-
-}
-
-.btn-menu{
-  height: 4rem;
-  width: 4rem;
-  grid-column: 1/2;
+  grid-column: 1/7;
   grid-row: 1;
-  justify-self: end;
-  background-color: $color-bg;
-  border: none;
-  margin-right: 1rem;
+  justify-self: center;
+  text-align: center;
+  align-self: center;
 }
 
-
-
-.main-container{
-grid-column: 1/5;
-display: grid;
-grid-template-columns: repeat(12,1fr);
-grid-template-rows: repeat(12,auto);
+.main-container {
+  grid-column: 1/5;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, auto);
 }
 .home-title {
-grid-column: 1 / 13;
-grid-row: 1;
-justify-self: center;
-font-size: 4rem;
+  grid-column: 1 / 13;
+  grid-row: 1;
+  justify-self: center;
+  font-size: 4rem;
 }
 .about-me {
   grid-column: 1/ 13;
   grid-row: 2/6;
   font-size: 2rem;
-text-align: center;
-align-items: end;
-margin-left: 1.5rem;
-margin-right: 1.5rem;
-margin-bottom: 2rem;
+  text-align: center;
+  align-items: end;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.side-line{
+.side-line {
   background-color: $color-accent;
   grid-row: 2/6;
   grid-column: 1/2;
   width: 0.5rem;
 }
-.portfolie-btn{
+.portfolie-btn {
   grid-column: 1/13;
   height: 3rem;
   width: 8rem;
@@ -82,7 +66,7 @@ margin-bottom: 2rem;
   margin-bottom: 2rem;
 }
 
-.footer-container{
+.footer-container {
   grid-column: 1/5;
   grid-row: 4;
   display: flex;
@@ -90,14 +74,12 @@ margin-bottom: 2rem;
   align-items: center;
 }
 
-
-.social-box{
+.social-box {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 4rem;
-  margin-bottom: 1rem;
   background-color: $color-accent;
 }
 
@@ -106,7 +88,7 @@ margin-bottom: 2rem;
   width: 3rem;
 }
 
-.footer-text{
+.footer-text {
   margin-bottom: 1rem;
   color: $color-accent;
 }

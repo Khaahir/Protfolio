@@ -1,0 +1,26 @@
+.menu-container {
+  position: absolute;
+  width: 430px;
+  height: 100%;
+}
+.menu-container .navi-overlay {
+  background-color: rgba(151, 140, 140, 0.438);
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.menu-container .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #0A192F;
+  font-size: 3rem;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 13rem;
+  height: 37rem;
+  width: 20rem;
+  background-color: #FFD700;
+}/*# sourceMappingURL=NaviMenu.css.map */

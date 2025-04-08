@@ -1,15 +1,16 @@
 @import url("./sassFiles/Sass/Sass.css");
 @import url("./sassFiles/Home/Home.css");
+@import url("./sassFiles/Portfolio/Portfolio.css");
+@import url("./sassFiles/Tools/Tools.css");
+@import url("./sassFiles/NaviMenu/NaviMenu.css");
 
-body{
-    box-sizing: border-box;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-

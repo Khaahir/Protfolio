@@ -1,0 +1,30 @@
+@use "../Sass/Sass.scss" as *;
+
+.tools-container {
+  width: 430px;
+  height: 100vh;
+  background-color: $color-bg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color-text;
+
+  .tools-title {
+    font-size: 2.5rem;
+    text-decoration: underline $color-accent;
+    text-underline-offset: 0.8rem;
+    margin-top: 4rem;
+  }
+
+  .tools-list {
+    display: flex;
+    font-size: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    li::marker {
+      color: $color-accent;
+      font-size: 4rem;
+    }
+  }
+}

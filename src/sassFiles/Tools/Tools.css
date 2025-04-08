@@ -1,0 +1,27 @@
+.tools-container {
+  width: 430px;
+  height: 100vh;
+  background-color: #0A192F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #E6F1FF;
+}
+.tools-container .tools-title {
+  font-size: 2.5rem;
+  -webkit-text-decoration: underline #FFD700;
+          text-decoration: underline #FFD700;
+  text-underline-offset: 0.8rem;
+  margin-top: 4rem;
+}
+.tools-container .tools-list {
+  display: flex;
+  font-size: 3rem;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.tools-container .tools-list li::marker {
+  color: #FFD700;
+  font-size: 4rem;
+}/*# sourceMappingURL=Tools.css.map */

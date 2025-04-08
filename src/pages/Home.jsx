@@ -1,15 +1,15 @@
 import React from "react";
 import "../sassFiles/Home/Home.scss";
+import "../sassFiles/Button/button.css";
 import { Link } from "react-router-dom";
-import Button from "../components/menuBtn";
+import Button from "../components/cutomBtn";
 
 export default function Home() {
   return (
     <>
       <section className="home-container">
         <header className="header-container">
-            <span className="home-motto">Family,Code,Roll,Run,Repeat</span>
-              <Button variant={"menu"} ><img  className="btn-menu" src="src/assets/menu.png" alt="menu button" /></Button>
+          <span className="home-motto">Family,Code,Roll,Run,Repeat</span>
         </header>
 
         <main className="main-container">
@@ -29,39 +29,40 @@ export default function Home() {
         </main>
         <footer className="footer-container">
           <div className="social-box">
-
-          <img
-            className="footer-social"
-            onClick={() =>
-              (window.location.href = "mailto: Jesperpersson96@hotmail.se")
-            }
-            src="/src/assets/email.png"
-            alt="email icon"
-          />
-          <img
-            className="footer-social"
-            onClick={() => window.open("https://github.com/Khaahir", "_blank")}
-            src="/src/assets/github.png"
-            alt="github icon"
-          />
-          <img
-            className="footer-social"
-            onClick={() =>
-              window.open(
-                "https://www.linkedin.com/in/jesper-persson-936109329/",
-                "_blank"
-              )
-            }
-            src="/src/assets/linkedin.png"
-            alt="likedin icon"
+            <img
+              className="footer-social"
+              onClick={() =>
+                (window.location.href = "mailto: Jesperpersson96@hotmail.se")
+              }
+              src="/src/assets/email.png"
+              alt="email icon"
             />
-          <img
-            className="footer-social"
-            onClick={() => (window.location.href = "tel:+0701471434")}
-            src="/src/assets/telephone.png"
-            alt="telephone icon"
-          />
-            </div>
+            <img
+              className="footer-social"
+              onClick={() =>
+                window.open("https://github.com/Khaahir", "_blank")
+              }
+              src="/src/assets/github.png"
+              alt="github icon"
+            />
+            <img
+              className="footer-social"
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/jesper-persson-936109329/",
+                  "_blank"
+                )
+              }
+              src="/src/assets/linkedin.png"
+              alt="likedin icon"
+            />
+            <img
+              className="footer-social"
+              onClick={() => (window.location.href = "tel:+0701471434")}
+              src="/src/assets/telephone.png"
+              alt="telephone icon"
+            />
+          </div>
           <span className="footer-text">
             “Fullstack. focused. Curious. Consistent.”
           </span>
