@@ -9,14 +9,19 @@
   flex-direction: column;
 
   .tools-navi {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .download {
+    grid-column: 5/7;
   }
 
   .tools-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-decoration: underline $color-accent;
-    text-underline-offset: 0.8rem;
+    text-underline-offset: 1rem;
+    margin-top: 0;
+    grid-column: 1 / 7;
   }
 
   .tools-list {

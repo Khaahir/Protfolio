@@ -11,6 +11,13 @@ function Tools() {
   return (
     <section className="tools-container">
       <header className="tools-navi">
+        <a
+          className="download"
+          href="public/cv.webp"
+          download={"public/cv.webp"}
+        >
+          <Button variant={"download"}>Download my cv</Button>
+        </a>
         <Button variant={"menu"} onClick={() => dispatch(toggleMenu())}>
           <img
             className="btn-menu"

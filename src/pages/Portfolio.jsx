@@ -10,11 +10,14 @@ function Portfolio() {
   const dispatch = useDispatch();
   return (
     <section className="portfolio-container">
+      <a className="download" href="public/cv.webp" download={"public/cv.webp"}>
+        <Button variant={"download"}>Download my cv</Button>
+      </a>
       <Button variant={"menu"} onClick={() => dispatch(toggleMenu())}>
         <img className="btn-menu" src="src/assets/menu.png" alt="menu button" />
       </Button>
       <header className="portfolio-header">
-        <h2 className="portfolio-title">My projects</h2>
+        <h2 className="portfolio-title">Things I’ve Built</h2>
       </header>
 
       <main className="portfolio-main">
@@ -24,12 +27,13 @@ function Portfolio() {
         </div>
 
         <div className="list-object">
-          <img className="project-img" src="/public/obj3.jpg" alt="" />
-          <span>HELLO</span>
+          <img className="project-img" src="/public/obj2.jpg" alt="" />
+          <span className="project-text">HELLO</span>
         </div>
+
         <div className="list-object">
-          <img className="project-img" src="/public/obj3.jpg" alt="" />
-          <span>HELLO</span>
+          <img className="project-img" src="/public/obj1.jpg" alt="" />
+          <span className="project-text">HELLO</span>
         </div>
       </main>
 

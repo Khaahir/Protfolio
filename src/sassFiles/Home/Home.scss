@@ -16,6 +16,12 @@
   grid-template-columns: repeat(6, 1fr);
   height: 2rem;
 }
+
+.download {
+  grid-column: 5/7;
+  justify-self: end;
+}
+
 .main-container {
   grid-column: 1/5;
   display: grid;
@@ -55,6 +61,8 @@
   justify-self: center;
   border: none;
   margin-bottom: 2rem;
+  font-size: 1.4rem;
+  font-family: monospace;
 }
 
 .footer-container {
